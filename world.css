@@ -49,6 +49,33 @@ body{
     color: #FFFFFF;
 }
 
+#rContainer{
+    display:grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+}
+
 #result{
+    
     font-size: 18px;
+    grid-column: col-start 3 / span 8;
+}
+
+#cTable{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cTable td, #cTable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#cTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#cTable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #39603D;
+    color: white;
 }
