@@ -1,1 +1,54 @@
 /* Add your own styles */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color:#3C403D ;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+#controls #country{
+    padding: 15px;
+    border-radius: 5px;
+    grid-column: col-start 6;
+    
+}
+
+#controls label{
+    grid-column: col-start 5;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+main label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #A3BCB6;
+}
+
+
+#controls{
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#controls #lookup{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #39603D;
+    color: #FFFFFF;
+}
+
+#result{
+    font-size: 18px;
+}
