@@ -79,3 +79,23 @@ body{
     background-color: #39603D;
     color: white;
 }
+
+#citTable{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#citTable td, #cTable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#citTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#citTable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #39603D;
+    color: white;
+}
